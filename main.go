@@ -14,6 +14,7 @@ func main() {
 	ListOfSuperstores.Set("Yamen", "Benin")
 	ListOfSuperstores.Set("Game", "Lagos")
 	ListOfSuperstores.Set("Chuck", "Lokoja")
+	ListOfSuperstores.Set("Ebeano", "Lagos")
 
 	for el := ListOfSuperstores.Front(); el != nil; el = el.Next() {
 		fmt.Println(el.Key, el.Value)
